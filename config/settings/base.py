@@ -50,7 +50,7 @@ THIRD_PARTY_APPS = (
 )
 
 LOCAL_APPS = (
-    # 'project.api',
+    'ingredients',
 
 )
 
