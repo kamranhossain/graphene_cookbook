@@ -51,6 +51,7 @@ THIRD_PARTY_APPS = (
 
 LOCAL_APPS = (
     'ingredients',
+    'graphene_django',
 
 )
 

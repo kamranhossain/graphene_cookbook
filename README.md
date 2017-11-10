@@ -13,4 +13,13 @@ Example Application with django graphene package(Docs) with reformatting structu
 7. python manage.py migrate
 8. python manage.py createsuperuser
 9. python manage.py runserver
-10. Goto the localserver 127.0.0.1:8000
+10. Goto the localserver 127.0.0.1:8000/graphql
+11. Writing quiries in Graphql like this: 
+
+query {
+  allIngredients {
+    id
+    name
+  }
+}
+
