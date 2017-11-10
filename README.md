@@ -16,10 +16,11 @@ Example Application with django graphene package(Docs) with reformatting structu
 10. Goto the localserver 127.0.0.1:8000/graphql
 11. Writing quiries in Graphql like this: 
 
+```graphql
 query {
   allIngredients {
     id
     name
   }
 }
-
+```
