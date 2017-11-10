@@ -46,13 +46,11 @@ DJANGO_APPS = (
 )
 
 THIRD_PARTY_APPS = (
-    # 'rest_framework',
+    'graphene_django',
 )
 
 LOCAL_APPS = (
     'ingredients',
-    'graphene_django',
-
 )
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
